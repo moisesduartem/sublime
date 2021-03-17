@@ -21,6 +21,7 @@
   { "keys": ["f4"], "command": "import_namespace" },
   { "keys": ["f3"], "command": "implement" },
   { "keys": ["shift+f12"], "command": "goto_definition_scope" },
-  { "keys": ["f7"], "command": "insert_php_constructor_property" }
+  { "keys": ["f7"], "command": "insert_php_constructor_property" },
+  {"keys": ["ctrl+alt+f"], "command": "reindent", "args": {"single_line": false}}
 ]
 ```
