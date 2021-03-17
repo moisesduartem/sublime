@@ -1,18 +1,19 @@
 # EXTENSIONS
 
-Bracket Highlighter
-Composer
-DocBlockr
-Emmet
-Git
-Package Control
-PHP Companion
-PHP Constructors
-SublimeCodeIntel
-Xdebug Client
+- Bracket Highlighter
+- Composer
+- DocBlockr
+- Emmet
+- Git
+- Package Control
+- PHP Companion
+- PHP Constructors
+- SublimeCodeIntel
+- Xdebug Client
 
 # KEY BINDINGS 
 
+```
 [
   { "keys": ["f6"], "command": "expand_fqcn" },
   { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
@@ -22,3 +23,4 @@ Xdebug Client
   { "keys": ["shift+f12"], "command": "goto_definition_scope" },
   { "keys": ["f7"], "command": "insert_php_constructor_property" }
 ]
+```
